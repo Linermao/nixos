@@ -1,0 +1,20 @@
+{ ... }:
+
+{
+  imports = [
+    ./hyprland
+    ./clash.nix
+    ./code.nix
+    ./compiler.nix
+    ./dolphin.nix
+    ./firefox.nix
+    ./fonts.nix
+    ./git.nix
+    ./nvim.nix
+    ./obs-studio.nix
+    ./screencopy.nix
+    ./steam.nix
+    ./tracy.nix
+    ./yazi.nix
+  ];
+}
